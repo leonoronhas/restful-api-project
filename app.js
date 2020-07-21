@@ -24,7 +24,7 @@ mongoose.connect(
     useUnifiedTopology: true,
   },
   () => {
-    console.log("Connected to DB finally!");
+    console.log("Connected to DB!");
   }
 );
 
